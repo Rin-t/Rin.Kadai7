@@ -15,7 +15,7 @@ final class SubtractionViewController: UIViewController {
     @IBAction private func didTapButton(_ sender: UIButton) {
         guard let num1 = Int(textField1.text ?? "") else { return }
         guard let num2 = Int(textField2.text ?? "") else { return }
-        let difference = Calculate.subtraction(num1, num2)
+        let difference = Calculator.subtraction(num1, num2)
         differenceLabel.text = String(difference)
         view.endEditing(true)
     }
