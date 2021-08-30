@@ -19,7 +19,7 @@
 		24BAEF2C26D7E291007FAD03 /* Subtraction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BAEF2B26D7E291007FAD03 /* Subtraction.storyboard */; };
 		24BAEF2E26D7E2A6007FAD03 /* AdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAEF2D26D7E2A6007FAD03 /* AdditionViewController.swift */; };
 		24BAEF3026D7E2B8007FAD03 /* SubtractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAEF2F26D7E2B8007FAD03 /* SubtractionViewController.swift */; };
-		24BAEF3226D7EA12007FAD03 /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAEF3126D7EA12007FAD03 /* Calculate.swift */; };
+		24BAEF3226D7EA12007FAD03 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAEF3126D7EA12007FAD03 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 		24BAEF2B26D7E291007FAD03 /* Subtraction.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Subtraction.storyboard; sourceTree = "<group>"; };
 		24BAEF2D26D7E2A6007FAD03 /* AdditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionViewController.swift; sourceTree = "<group>"; };
 		24BAEF2F26D7E2B8007FAD03 /* SubtractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionViewController.swift; sourceTree = "<group>"; };
-		24BAEF3126D7EA12007FAD03 /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
+		24BAEF3126D7EA12007FAD03 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +162,7 @@
 		24BAEF2526D7E250007FAD03 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				24BAEF3126D7EA12007FAD03 /* Calculate.swift */,
+				24BAEF3126D7EA12007FAD03 /* Calculator.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -322,7 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24BAEF3226D7EA12007FAD03 /* Calculate.swift in Sources */,
+				24BAEF3226D7EA12007FAD03 /* Calculator.swift in Sources */,
 				24BAEEF326D7C645007FAD03 /* AppDelegate.swift in Sources */,
 				24BAEF2E26D7E2A6007FAD03 /* AdditionViewController.swift in Sources */,
 				24BAEF3026D7E2B8007FAD03 /* SubtractionViewController.swift in Sources */,

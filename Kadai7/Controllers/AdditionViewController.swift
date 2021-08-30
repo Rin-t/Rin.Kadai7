@@ -15,7 +15,7 @@ final class AdditionViewController: UIViewController {
     @IBAction private func didTapButton(_ sender: UIButton) {
         guard let num1 = Int(textField1.text ?? "") else { return }
         guard let num2 = Int(textField2.text ?? "") else { return }
-        let sum = Calculate.addition(num1, num2)
+        let sum = Calculator.addition(num1, num2)
         sumLabel.text = String(sum)
         view.endEditing(true)
     }

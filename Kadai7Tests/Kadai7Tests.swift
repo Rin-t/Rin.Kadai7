@@ -10,11 +10,11 @@ import XCTest
 
 class Kadai7Tests: XCTestCase {
     func testAdition() {
-        let sum = Calculate.addition(3, 4)
+        let sum = Calculator.addition(3, 4)
         XCTAssertEqual(sum, 7)
     }
     func testSubtraction() {
-        let difference = Calculate.subtraction(4, 3)
+        let difference = Calculator.subtraction(4, 3)
         XCTAssertEqual(difference, 1)
     }
 }
